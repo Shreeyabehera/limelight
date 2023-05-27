@@ -1,5 +1,5 @@
 # limelight
-Predicting broadway sales using time series forecasting
+Predicting weekly gross for Broadway theatres
 
 # Data Dictionary
 
