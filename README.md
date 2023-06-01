@@ -1,6 +1,30 @@
 # limelight
 Predicting weekly gross for Broadway theatres
 
+## Description
+
+Chandra is a tool for classifying chest x-rays plates as exhibiting signs of pneumonia or not.  
+
+
+<!-- MarkdownTOC autolink="true" autoanchor="true" -->
+
+- [The Problem](#the-problem)
+- [Data Dictionary](#Data-dictionary)
+- [Methodology](#methodology)
+    - [AR (Auto Regressive) Model](#AR-Model)
+    - [SARIMA Model](#SARIMA-Model)
+    - [Prophet Model](#Prophet-Model)
+- [Results](#results)
+
+
+<!-- /MarkdownTOC -->
+
+
+
+<a id="the-problem"></a>
+## The Problem
+
+
 # Data Dictionary
 
 ### `grosses.csv` contains weekly box office grosses from [playbill.com](https://www.playbill.com/grosses)
