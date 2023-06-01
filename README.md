@@ -7,7 +7,7 @@ Predicting weekly gross for Broadway theatres
 
 About 80% of the 41 theaters considered to be \"on Broadway\" are owned by 3 groups (see chart below). These groups have significant resources to allocate and how they decide to do so is an expensive question for them. It is plausible they are willing to expend a small amount of those resources to ensure they allocate large amounts in a prudent manner.
    
-    ![Broadway Owners](https://raw.githubusercontent.com/Shreeyabehera/limelight/main/img/sunburst_plot_broadway_theatres_owners.png)
+![Broadway Owners](https://raw.githubusercontent.com/Shreeyabehera/limelight/main/img/sunburst_plot_broadway_theatres_owners.png)
 
 <!-- MarkdownTOC autolink="true" autoanchor="true" -->
 
