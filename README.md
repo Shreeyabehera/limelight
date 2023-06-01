@@ -66,9 +66,9 @@ For more information about the web scraping of this data using R please see http
 ### Prophet Model
 
 
-<a id="Results"></a>
+<a id="results"></a>
 ## Results
 
 
-<a id="Conclusions"></a>
+<a id="Conclusion"></a>
 ## Conclusions
