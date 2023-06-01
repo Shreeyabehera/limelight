@@ -63,9 +63,20 @@ For more information about the web scraping of this data using R please see http
 | previews             |  Number of preview performances in the week. Previews occur before a show's official open. |
 
 
+Train data: 5 years (2013-06-02 - 2018-05-27)
+Test data: 1 year (2018-06-03 - 2019-05-26)
+
+
+
+
 <a id="methodology"></a>
 ## Methodology
+We used the followinf data as our train and test data.
 
+Train data: 5 years (2013-06-02 - 2018-05-27)
+Test data: 1 year (2018-06-03 - 2019-05-26)
+
+We have tested several time series algorithms to arrive at our final model with varying levels of complexity.
 
 <a id="AR-Model"></a>
 ### AR (Auto Regressive) Model
