@@ -76,6 +76,8 @@ For more information about the web scraping of this data using R please see http
 <a id="results"></a>
 ## Results
 
+In our comprehensive time series analysis on weekly Broadway sales grosses, we employed the Root Mean Square Error (RMSE) as the yardstick for evaluating the performance of our models. The RMSE provides an estimate of the average discrepancy between our model's predictions and the actual sales grosses. Essentially, a lower RMSE implies a model that is able to more accurately predict Broadway sales on a week-by-week basis. We trained and tested three distinct models: Autoregressive Model (AR), Seasonal Autoregressive Integrated Moving Average (SARIMA), and the Prophet Model. Their respective RMSE results were X, Y, and Z. Based on these metrics, we selected the Prophet Model as our final model, as it achieved an average RMSE of Z. Upon visualizing the forecasted time series on the test data, it was evident that the Prophet model's predictions closely adhered to the observed behavior. We strongly recommend the Prophet Model to our stakeholders. Not only does it adeptly handle seasonality and trends, but it also incorporates irregularities such as holiday spikes. This advanced level of precision offers a significant advantage for theater owners in forecasting their revenue. A reliable revenue estimate aids in efficient financial planning and expense management. Additionally, an accurate revenue prediction model can result in increased profitability by reducing the risk of over or under budgeting. This leads to optimized operations and potentially increased profitability.
+
 
 <a id="Conclusion"></a>
 ## Conclusions
