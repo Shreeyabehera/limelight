@@ -71,7 +71,7 @@ Test data: 1 year (2018-06-03 - 2019-05-26)
 
 <a id="methodology"></a>
 ## Methodology
-We used the followinf data as our train and test data.
+We used the following data as our train and test data.
 
 Train data: 5 years (2013-06-02 - 2018-05-27)
 Test data: 1 year (2018-06-03 - 2019-05-26)
