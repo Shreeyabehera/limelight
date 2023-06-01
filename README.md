@@ -6,9 +6,9 @@ Predicting weekly gross for Broadway theatres
 [Broadway theatre](https://en.wikipedia.org/wiki/Broadway_theatre), or Broadway, are the theatrical performances presented in the 41 professional theatres, each with 500 or more seats, located in the Theater District and the Lincoln Center along Broadway, in Midtown Manhattan, New York City. 
 
 About 80% of the 41 theaters considered to be \"on Broadway\" are owned by 3 groups (see chart below). These groups have significant resources to allocate and how they decide to do so is an expensive question for them. It is plausible they are willing to expend a small amount of those resources to ensure they allocate large amounts in a prudent manner.\n",
-    "\n",
+    
     "![Broadway Owners](https://drive.google.com/uc?id=1yqvLg8S7xjKlcfJpWY7IcCO8rXeLswlb)\n",
-    "\n",
+    
 
 <!-- MarkdownTOC autolink="true" autoanchor="true" -->
 
