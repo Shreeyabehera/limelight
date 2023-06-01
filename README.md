@@ -3,8 +3,7 @@ Predicting weekly gross for Broadway theatres
 
 ## Description
 
-Chandra is a tool for classifying chest x-rays plates as exhibiting signs of pneumonia or not.  
-
+[Broadway theatre](https://en.wikipedia.org/wiki/Broadway_theatre), or Broadway, are the theatrical performances presented in the 41 professional theatres, each with 500 or more seats, located in the Theater District and the Lincoln Center along Broadway, in Midtown Manhattan, New York City. 
 
 <!-- MarkdownTOC autolink="true" autoanchor="true" -->
 
