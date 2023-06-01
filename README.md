@@ -28,6 +28,10 @@ About 80% of the 41 theaters considered to be \"on Broadway\" are owned by 3 gro
 <a id="the-problem"></a>
 ## The Problem
 
+Theater-owning conglomerates (our main stakeholders) have an interest in accurate predictions of not just their annual box office gross for the coming year, but also how it is likely to fluctuate week-to-week (our main KPI), so they can budget accordingly. For example, if their cashflow is likely to plummet in a particular week, they want to anticipate this in order to keep enough cash on hand to maintain normal operations (e.g. making payroll). Alternatively, if they can anticipate high sales in a coming week, they can make arrangements for how to spend that money so it put to good use as quickly as possible (e.g. paying off a loan).
+
+While the models we build here predict gross sales, the Playbill data includes other potential outcome variables that could be of interest that could be easily predicted using similar models. Reliable forecasts of the percentage of theater seats sold on a weekly basis can serve as valuable information for theater owners. This data can aid in planning activities such as renovations or facility maintenance, timed strategically during weeks with lower occupancy. Moreover, this knowledge can contribute to efficient workforce management, enabling the reduction of staff during less busy weeks, thus leading to cost savings.
+
 
 <a id="Data-dictionary"></a>
 ## Data Dictionary
