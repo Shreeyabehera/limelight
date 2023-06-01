@@ -26,6 +26,7 @@ Chandra is a tool for classifying chest x-rays plates as exhibiting signs of pne
 ## The Problem
 
 
+<a id="Data-dictionary"></a>
 ## Data Dictionary
 
 `grosses.csv` contains weekly box office grosses from [playbill.com](https://www.playbill.com/grosses)
@@ -48,14 +49,26 @@ For more information about the web scraping of this data using R please see http
 | performances         |  Number of performances in the week                           |
 | previews             |  Number of preview performances in the week. Previews occur before a show's official open. |
 
+
+<a id="methodology"></a>
 ## Methodology
 
+
+<a id="AR-Model"></a>
 ### AR (Auto Regressive) Model
 
+
+<a id="SARIMA-Model"></a>
 ### SARIMA Model
 
+
+<a id="Prophet-Model"></a>
 ### Prophet Model
 
+
+<a id="Results"></a>
 ## Results
 
+
+<a id="Conclusions"></a>
 ## Conclusions
