@@ -4,6 +4,7 @@ Predicting weekly gross for Broadway theatres
 # Data Dictionary
 
 ### `grosses.csv` contains weekly box office grosses from [playbill.com](https://www.playbill.com/grosses)
+For more information about the web scraping of this data using R please see https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-28.
 
 | variable             | description                                                  |
 | :------------------- |  :----------------------------------------------------------- |
@@ -12,7 +13,7 @@ Predicting weekly gross for Broadway theatres
 | weekly_gross_overall |  Weekly box office gross for all shows                        |
 | show                 | Name of show. Some shows have the same name, but multiple runs. |
 | theatre              |  Name of theatre                                              |
-| weekly_gross         |  Weekly box office gross for individual show                  |
+| weekly_gross         |  Weekly box office gross for individual show/theatre                  |
 | potential_gross      | Weekly box office gross if all seats are sold at full price. Shows can exceed their potential gross by selling premium tickets and/or standing room tickets. |
 | avg_ticket_price     |  Average price of tickets sold                                |
 | top_ticket_price     |  Highest price of tickets sold                                |
