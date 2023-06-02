@@ -76,8 +76,21 @@ We have tested several time series algorithms to arrive at our final model with 
 
 <a id="AR-Model"></a>
 ### AR (Auto Regressive) Model
+The Autoregressive (AR) model is a time series analysis technique that models the relationship between an observation and a lagged version of itself. It assumes that the current value of a variable is linearly dependent on its previous values. In the AR model, the order of the autoregression, denoted as $p$, determines the number of lagged observations to consider. Each lagged observation is represented by a coefficient that measures its influence on the current value. The model equation for an AR(p) process can be written as:
 
+$$y(t) = c + \beta_1 * y(t-1) + \beta_2 * y(t-2) + ... + \beta_p * y(t-p) + \epsilon(t)$$
 
+where:
+
+$y(t)$ is the current value of the variable
+
+$c$ is a constant term
+
+$\beta_1, \beta_2, ..., \beta_p$ are the coefficients corresponding to the lagged observations
+
+$\epsilon(t)$ is the error term, which represents the random component of the model
+
+Using cross validation we found the best lag value. The selection process was based on the evaluation of the root mean square error (RMSE).
 
 <a id="SARIMA-Model"></a>
 ### SARIMA Model
