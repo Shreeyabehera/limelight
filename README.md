@@ -78,6 +78,7 @@ We have tested several time series algorithms to arrive at our final model with 
 ### AR (Auto Regressive) Model
 
 
+
 <a id="SARIMA-Model"></a>
 ### SARIMA Model
 
@@ -96,9 +97,9 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 
 | Errors           | AR Model     | SARIMA         | Prophet                       |
 | :----------------|  :-----------|---------------- | -----------------------------|
-| RMSE             | 244315       |   173964        |                              |
-| MAE              | 263114       |   108365        |                              |
-| MAPE             | 0.138324     |   0.058077      |                              |
+| RMSE             | 382071       |   173964        |                              |
+| MAE              | 260860       |   108365        |                              |
+| MAPE             | 0.137628     |   0.058077      |                              |
 
 ### Majestic Theater
 
