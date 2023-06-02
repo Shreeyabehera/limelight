@@ -82,7 +82,8 @@ We have tested several time series algorithms to arrive at our final model with 
 
 <a id="SARIMA-Model"></a>
 ### SARIMA Model
-
+The Seasonal Autoregressive Integrated Moving Average (SARIMA) is an enhancement to the ARIMA model for handling seasonality. Like an ARIMA(p, d, q), a SARIMA model also requires (p, d, q) to represent non-seasonal orders. Additionally, a SARIMA model requires the orders for the seasonal component, which is denoted as (P, D, Q, S). Combining both components, the model can be written as a SARIMA(p, d, q)(P, D, Q, s).
+..to be updated
 
 <a id="Prophet-Model"></a>
 ### Prophet Model
