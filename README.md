@@ -7,7 +7,7 @@ Predicting weekly gross for Broadway theatres
 
 About 80% of the 41 theaters considered to be \"on Broadway\" are owned by 3 groups (see chart below). These groups have significant resources to allocate and how they decide to do so is an expensive question for them. It is plausible they are willing to expend a small amount of those resources to ensure they allocate large amounts in a prudent manner.
    
-    ![Broadway Owners](https://drive.google.com/uc?id=1yqvLg8S7xjKlcfJpWY7IcCO8rXeLswlb)
+![Broadway Owners](https://raw.githubusercontent.com/Shreeyabehera/limelight/main/img/sunburst_plot_broadway_theatres_owners.png)
 
 <!-- MarkdownTOC autolink="true" autoanchor="true" -->
 
@@ -63,15 +63,11 @@ For more information about the web scraping of this data using R please see http
 | previews             |  Number of preview performances in the week. Previews occur before a show's official open. |
 
 
-Train data: 5 years (2013-06-02 - 2018-05-27)
-Test data: 1 year (2018-06-03 - 2019-05-26)
-
-
 
 
 <a id="methodology"></a>
 ## Methodology
-We used the followinf data as our train and test data.
+We used the following data as our train and test data.
 
 Train data: 5 years (2013-06-02 - 2018-05-27)
 Test data: 1 year (2018-06-03 - 2019-05-26)
@@ -94,6 +90,22 @@ We have tested several time series algorithms to arrive at our final model with 
 ## Results
 
 In our comprehensive time series analysis on weekly Broadway sales grosses, we employed the Root Mean Square Error (RMSE) as the yardstick for evaluating the performance of our models. The RMSE provides an estimate of the average discrepancy between our model's predictions and the actual sales grosses. Essentially, a lower RMSE implies a model that is able to more accurately predict Broadway sales on a week-by-week basis. We trained and tested three distinct models: Autoregressive Model (AR), Seasonal Autoregressive Integrated Moving Average (SARIMA), and the Prophet Model. Their respective RMSE results were X, Y, and Z. Based on these metrics, we selected the Prophet Model as our final model, as it achieved an average RMSE of Z. Upon visualizing the forecasted time series on the test data, it was evident that the Prophet model's predictions closely adhered to the observed behavior. We strongly recommend the Prophet Model to our stakeholders. Not only does it adeptly handle seasonality and trends, but it also incorporates irregularities such as holiday spikes. This advanced level of precision offers a significant advantage for theater owners in forecasting their revenue. A reliable revenue estimate aids in efficient financial planning and expense management. Additionally, an accurate revenue prediction model can result in increased profitability by reducing the risk of over or under budgeting. This leads to optimized operations and potentially increased profitability.
+
+### Gershwin Theater
+
+| Errors           | AR Model     | SARIMA         | Prophet                       |
+| :----------------|  :-----------|---------------- | ----------------------------- |
+| RMSE             | 244315       |                 |                              |
+| MAE              | 263114       |                 |                              |
+| MAPE             | 0.138324     |                 |                              |
+
+### Majestic Theater
+
+| Errors           | AR Model     | SARIMA         | Prophet                       |
+| :----------------|  :-----------|--------------- |-------------------------------|
+| RMSE             |              |                 |                              |
+| MAE              |              |                 |                              |
+| MAPE             |              |                 |                              |
 
 
 <a id="Conclusion"></a>
