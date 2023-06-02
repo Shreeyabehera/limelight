@@ -122,7 +122,7 @@ For interactive plotting: https://facebook.github.io/prophet/docs/quick_start.ht
 
 For changepoint detection: https://facebook.github.io/prophet/docs/trend_changepoints.html
 
-For modeling holidays: [https://facebook.github.io/prophet/docs/seasonality,_holiday_effects,_and_regressors.html#modeling-holidays-and-special-events(https://facebook.github.io/prophet/docs/seasonality,_holiday_effects,_and_regressors.html#modeling-holidays-and-special-events)
+For modeling holidays: https://facebook.github.io/prophet/docs/seasonality,_holiday_effects,_and_regressors.html#modeling-holidays-and-special-events
 
 For cross validation, diagnostic metrics, and hyperparameter tuning: https://facebook.github.io/prophet/docs/diagnostics.html
 
