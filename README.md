@@ -119,6 +119,8 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 <a id="Conclusion"></a>
 ## Conclusions
 
+In conclusion, when it comes to predicting gross ticket sales for large Broadway theaters, the \textbf{Prophet model} outperforms both the AR model and SARIMA. The Prophet model's built-in fine-tuning capabilities and its ability to incorporate holiday effects make it particularly well-suited for accurately forecasting ticket sales in this context. By taking into account seasonality, trends, and special events such as holidays, the Prophet model can capture the complex dynamics of Broadway ticket sales and provide more reliable predictions. 
+
 <a id="citations"></a>
 ## Citations
 
