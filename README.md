@@ -105,9 +105,9 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 
 | Errors           | AR Model     | SARIMA         | Prophet                       |
 | :----------------|  :-----------|--------------- |-------------------------------|
-| RMSE             |              |                 |                              |
-| MAE              |              |                 |                              |
-| MAPE             |              |                 |                              |
+| RMSE             |              |  133343         |                              |
+| MAE              |              |  101572         |                              |
+| MAPE             |              |  0.100935       |                              |
 
 
 <a id="Conclusion"></a>
