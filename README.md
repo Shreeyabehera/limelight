@@ -43,7 +43,8 @@ For practical purposes, we chose to focus on the Gershwin and Majestic Theatres 
 ## Data Dictionary
 
 `grosses.csv` contains weekly box office grosses from [playbill.com](https://www.playbill.com/grosses)
-For more information about the web scraping of this data using R please see https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-28.
+
+For more information about the web scraping of this data please see https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-28
 
 | variable             | description                                                  |
 | :------------------- |  :----------------------------------------------------------- |
