@@ -80,15 +80,7 @@ The Autoregressive (AR) model is a time series analysis technique that models th
 
 $$y(t) = c + \beta_1 * y(t-1) + \beta_2 * y(t-2) + ... + \beta_p * y(t-p) + \epsilon(t)$$
 
-where:
-
-$y(t)$ is the current value of the variable
-
-$c$ is a constant term
-
-$\beta_1, \beta_2, ..., \beta_p$ are the coefficients corresponding to the lagged observations
-
-$\epsilon(t)$ is the error term, which represents the random component of the model
+where: $y(t)$ is the current value of the variable; $c$ is a constant term; $\beta_1, \beta_2, ..., \beta_p$ are the coefficients corresponding to the lagged observations; $\epsilon(t)$ is the error term, which represents the random component of the model.
 
 Using cross validation we found the best lag value. The selection process was based on the evaluation of the root mean square error (RMSE).
 
