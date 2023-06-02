@@ -93,11 +93,12 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 
 ### Gershwin Theater
 
+
 | Errors           | AR Model     | SARIMA         | Prophet                       |
-| :----------------|  :-----------|---------------- | ----------------------------- |
-| RMSE             | 244315       |                 |                              |
-| MAE              | 263114       |                 |                              |
-| MAPE             | 0.138324     |                 |                              |
+| :----------------|  :-----------|---------------- | -----------------------------|
+| RMSE             | 244315       |   173964        |                              |
+| MAE              | 263114       |   108365        |                              |
+| MAPE             | 0.138324     |   0.058077      |                              |
 
 ### Majestic Theater
 
