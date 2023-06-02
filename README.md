@@ -19,7 +19,7 @@ About 80% of the 41 theaters considered to be \"on Broadway\" are owned by 3 gro
     - [Prophet Model](#Prophet-Model)
 - [Results](#results)
 - [Conclusions](#Conclusion)
-
+- [Citations](#citations)
 
 <!-- /MarkdownTOC -->
 
@@ -86,7 +86,7 @@ The Seasonal Autoregressive Integrated Moving Average (SARIMA) is an enhancement
 
 <a id="Prophet-Model"></a>
 ### Prophet Model
-The `Prophet` model was developed by Facebook data scientists to make effective, flexible, and scalable business time series analysis accessible to individuals without significant experience or knowledge. Toward this end, it is designed to have parameters with effects that are intuitive to those without a thorough knowledge of the underlying mathematical model. The model has 3 main components: a function for non-periodic changes in trend, periodic seasonality function, and a parameter to account for irregularly-occurring holidays. The trend component is a piecewise logistic growth function that saturates at a time-varying capacity *C(t)*. The model attempts to automatically detect "changepoints" in the trend where the growth rate parameter (*k*) varies, but the user can also adjust this manually if their knowledge of the DGP gives them insight about potential trend changes or the absence thereof. Prophet has the ability to account for multiple levels of seasonality occurring simultaneously, though we did not need to make use of that feature for the present problem. The model incorporates each occurrence of a holiday as an independent indicator regressor with its own parameter for the change in forecast. While the `prophet` package includes built-in lists of most major holidays in each country, the US list did not correspond to the patterns in the data observed, so we manually built a custom list of holidays to use in our model. The holiday feature appeared to give the most significant added value relative to the other models, which, in contrast, typically were too conservative when estimating the size of holiday sales spikes.
+The `Prophet` model was developed by Facebook data scientists to make effective, flexible, and scalable business time series analysis accessible to individuals without significant experience or knowledge. Toward this end, it is designed to have parameters with effects that are intuitive to those without a thorough knowledge of the underlying mathematical model. The model has 3 main components: a function for non-periodic changes in trend *g(t)*, periodic seasonality function *s(t)*, and a parameter to account for irregularly-occurring holidays *h(t)*. The trend component is a piecewise logistic growth function that saturates at a time-varying capacity *C(t)*. The model attempts to automatically detect "changepoints" in the trend where the growth rate parameter (*k*) varies, but the user can also adjust this manually if their knowledge of the DGP gives them insight about potential trend changes or the absence thereof. Prophet has the ability to account for multiple levels of seasonality occurring simultaneously, though we did not need to make use of that feature for the present problem. The model incorporates each occurrence of a holiday as an independent indicator regressor with its own parameter for the change in forecast. While the `prophet` package includes built-in lists of most major holidays in each country, the US list did not correspond to the patterns in the data observed, so we manually built a custom list of holidays to use in our model. The holiday feature appeared to give the most significant added value relative to the other models, which, in contrast, typically were too conservative when estimating the size of holiday sales spikes.
 
 *Source:* https://peerj.com/preprints/3190/
 
@@ -115,3 +115,6 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 
 <a id="Conclusion"></a>
 ## Conclusions
+
+<a id="citations"></a>
+## Citations
