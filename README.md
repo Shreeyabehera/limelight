@@ -106,8 +106,8 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 ### Gershwin Theater
 
 
-| Errors           | AR Model     | SARIMA         | Prophet                       |
-| :----------------|  :-----------|----------------| ------------------------------|
+| Errors           | AR Model     | SARIMA         | Prophet                       | 
+| :----------------|  :-----------|----------------| ------------------------------| 
 | RMSE             | 382071       |   173964       |   131508                      |
 | MAE              | 260860       |   108365       |   98811                       |
 | MAPE             | 0.137628     |   0.058077     |   0.0557                      |
@@ -120,6 +120,9 @@ In our comprehensive time series analysis on weekly Broadway sales grosses, we e
 | MAE              |    124601    |  101572        |   69875                       |
 | MAPE             |    0.129     |  0.100935      |   0.0706                      |
 
+<a id="Future Directions"></a>
+## Future Directions
+An interesting questions is: can one use external features to improve forecasts? In the context of SARIMAX model, which is the SARIMA model extended with the exogeneous features, we find the answer to be yes. We have chosen 'avg_ticket_price' and 'possible_gross' as exogeneous features. We find that for both theaters there are consideable improvements compared to SARIMA predictions. While performing forecast with the SARIMAX models, the future values for the exogenous features are assumed to be known. This is not totally unreasonable as 'avg_ticket_price' and 'possible_gross' are features that determined by the theatres, therefore the values of these features can be assumed to be known at least for the near future.
 
 <a id="Conclusion"></a>
 ## Conclusions
