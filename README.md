@@ -86,8 +86,13 @@ Using cross validation we found the best lag value. The selection process was ba
 
 <a id="SARIMA-Model"></a>
 ### SARIMA Model
-The Seasonal Autoregressive Integrated Moving Average (SARIMA) is an enhancement to the ARIMA model for handling seasonality. Like an ARIMA(p, d, q), a SARIMA model also requires (p, d, q) to represent non-seasonal orders. Additionally, a SARIMA model requires the orders for the seasonal component, which is denoted as (P, D, Q, S). Combining both components, the model can be written as a SARIMA(p, d, q)(P, D, Q, s).
-..to be updated
+The Seasonal Autoregressive Integrated Moving Average (SARIMA) is an enhancement to the ARIMA model for handling seasonality. Like an ARIMA(p, d, q), a SARIMA model also requires (p, d, q) to represent non-seasonal orders. Additionally, a SARIMA model requires the orders for the seasonal component, which is denoted as (P, D, Q, S). Combining both components, the model can be written as a SARIMA(p, d, q)(P, D, Q, S).
+
+We set S=52 (assuming yearly seasonality for our weekly data) and performed a naive grid search by evaluating different combinations of the (p, d, q) and (P, D, Q) parameters to pick the best model built using statsmodels's [SARIMAX](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html) class. 
+
+We also used the [auto_arima](https://alkaline-ml.com/pmdarima/modules/generated/pmdarima.arima.auto_arima.html) function from `pmdarima` library to optimize and find the best configuration for our SARIMA model. Prior knowledge about our data is key to obtaining the best results from `auto_arima`. Instead of the naive approach of training multiple models through grid search to cover every possible combination of parameter values, `auto_arima` automates the process for finding the optimal parameters. The `auto_arima` function uses a stepwise algorithm that is faster and more efficient than a full grid search or random search. 
+
+Although `SARIMAX` and `auto_arima` can give you good-performing models in many cases, they can be quite slow when you have long seasonal periods and a long time series. As a future direction to our project we consider exploring [statsforecast](https://github.com/Nixtla/statsforecast), a relatively new library showing a lot of promise in having a fast implementation.
 
 <a id="Prophet-Model"></a>
 ### Prophet Model
